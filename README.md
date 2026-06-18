@@ -1,51 +1,75 @@
-# Lumina Clean Storefront 🌿✨
+# 🌿 Lumina Clean Store
 
-Lumina Clean is a premium, plant-derived, and eco-conscious cleaning products storefront. Designed with a modern, clean, minimalist design system, the web application features an immersive glassmorphic interface, product catalog filtering, dynamic multi-tab information modules, interactive cart workflows, and responsive checkout flows.
-
----
+Lumina Clean Store is a modern e-commerce web application designed for eco-friendly cleaning products. The platform provides customers with a seamless shopping experience, allowing them to browse products, manage carts, track orders, and complete purchases through an elegant and responsive interface.
 
 ## 🚀 Features
 
-- **Premium UI Design**: Immersive botanical aesthetic using an custom typography stack (`Playfair Display`, `Outfit`, `Inter`) and a sophisticated color palette (`Deep Forest Sage`, `Fresh Emerald Mint`).
-- **Glassmorphism Integration**: Translucent backdrop-filtered headers and navigation layers providing high aesthetic appeal.
-- **Product Filtering & Sorting**: Smooth interaction layout matching dynamic layout structures for premium store catalogs.
-- **Interactive Shopping Workflow**: Seamless side-drawer slide-out cart overlay with quick-add counters.
-- **Automated Startup Scripts**: Built-in environment utilities for setting up, launching, and managing local servers effortlessly.
+- Product Catalog Management
+- Product Search Functionality
+- Category Filtering
+- Product Details Page
+- Shopping Cart System
+- User Authentication (Login & Registration)
+- User Profile Dashboard
+- Order Tracking System
+- Checkout Process
+- Responsive Design
+- Product Ratings & Reviews
+- Modern Luxury User Interface
+- Eco-Friendly Product Branding
 
----
+## 🛠️ Tech Stack
 
-## 🛠️ Built With
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-- **HTML5 & CSS3 Architecture**: Scalable variable architecture (`:root` tokens) organizing margins, paddings, color codes, and responsive grid layouts.
-- **Vite Bundler**: Ultra-fast next-generation frontend tooling and development ecosystem.
-- **PowerShell & Batch Automation**: Quick deployment hooks for rapid local development preview.
+### Build Tool
+- Vite
 
----
+### Design
+- Responsive Layout
+- Custom Design System
+- Modern UI/UX
+- CSS Animations
 
-## 📁 Repository Structure
+## 📂 Project Structure
+Lumina-Clean-Store/
+## 🎯 Key Functionalities
 
-```text
-├── index.html         # Main app markup & route layout
-├── style.css          # Core CSS variables, animations & responsive styling
-├── package.json       # Node package manager configurations & scripts
-├── run.bat            # Windows batch configuration script 
-└── serve.ps1          # PowerShell engine script to boot local server
+### Product Management
+- Display products in a clean catalog layout
+- Product categories and filtering
+- Product search functionality
+- Detailed product information
 
-🏁 Getting Started
-Prerequisites
-Make sure you have Node.js installed on your machine.
+### Shopping Experience
+- Add products to cart
+- Update cart quantities
+- Remove products from cart
+- Dynamic cart total calculation
 
-Local Development Setup
-Clone the repository:
+### User System
+- User registration
+- User login
+- Account management
+- Profile dashboard
 
-Bash
-git clone [https://github.com/YOUR_USERNAME/lumina-clean-store.git](https://github.com/YOUR_USERNAME/lumina-clean-store.git)
-cd lumina-clean-store
-Install dependencies:
+### Order Management
+- Checkout process
+- Order summary
+- Order history
+- Delivery tracking timeline
 
-Bash
-npm install
-Run using Vite (Standard):
+## 📱 Responsive Design
 
-Bash
-npm run dev
+The application is fully responsive and optimized for:
+
+- Desktop
+- Tablet
+- Mobile Devices
+
+## 🌱 About Lumina Clean
+
+Lumina Clean promotes sustainable living through premium eco-friendly cleaning products. The platform focuses on combining modern design with environmentally conscious shopping experiences.
