@@ -36,6 +36,14 @@ Lumina Clean Store is a modern e-commerce web application designed for eco-frien
 
 ## 📂 Project Structure
 Lumina-Clean-Store/
+│
+├── index.html
+├── style.css
+├── package.json
+├── run.bat
+├── serve.ps1
+│
+└── assets/
 ## 🎯 Key Functionalities
 
 ### Product Management
