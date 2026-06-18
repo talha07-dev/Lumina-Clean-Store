@@ -1,130 +1,51 @@
-# 🧼 Lumina Clean Store
+# Lumina Clean Storefront 🌿✨
 
-Lumina Clean Store is a full-stack e-commerce web application designed for selling cleaning products online. Built using the MERN stack, the platform provides a seamless shopping experience with product browsing, search and filtering, secure user authentication, shopping cart management, and order processing. It also includes an admin dashboard for managing products, orders, and store operations.
+Lumina Clean is a premium, plant-derived, and eco-conscious cleaning products storefront. Designed with a modern, clean, minimalist design system, the web application features an immersive glassmorphic interface, product catalog filtering, dynamic multi-tab information modules, interactive cart workflows, and responsive checkout flows.
+
+---
 
 ## 🚀 Features
 
-### Customer Features
-- User Registration & Login
-- Browse Cleaning Products
-- Product Search & Filtering
-- Product Details Page
-- Shopping Cart Management
-- Secure Checkout Process
-- Order Placement & Tracking
-- Responsive Design for Mobile and Desktop
+- **Premium UI Design**: Immersive botanical aesthetic using an custom typography stack (`Playfair Display`, `Outfit`, `Inter`) and a sophisticated color palette (`Deep Forest Sage`, `Fresh Emerald Mint`).
+- **Glassmorphism Integration**: Translucent backdrop-filtered headers and navigation layers providing high aesthetic appeal.
+- **Product Filtering & Sorting**: Smooth interaction layout matching dynamic layout structures for premium store catalogs.
+- **Interactive Shopping Workflow**: Seamless side-drawer slide-out cart overlay with quick-add counters.
+- **Automated Startup Scripts**: Built-in environment utilities for setting up, launching, and managing local servers effortlessly.
 
-### Admin Features
-- Admin Dashboard
-- Product Management (Add, Edit, Delete)
-- Order Management
-- Inventory Monitoring
-- Customer Order Tracking
-- Secure Authentication & Authorization
+---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-### Frontend
-- React.js
-- Vite
-- Tailwind CSS
-- React Router DOM
-- Axios
+- **HTML5 & CSS3 Architecture**: Scalable variable architecture (`:root` tokens) organizing margins, paddings, color codes, and responsive grid layouts.
+- **Vite Bundler**: Ultra-fast next-generation frontend tooling and development ecosystem.
+- **PowerShell & Batch Automation**: Quick deployment hooks for rapid local development preview.
 
-### Backend
-- Node.js
-- Express.js
+---
 
-### Database
-- MongoDB
-- Mongoose
+## 📁 Repository Structure
 
-### Authentication
-- JSON Web Token (JWT)
-- bcrypt.js
+```text
+├── index.html         # Main app markup & route layout
+├── style.css          # Core CSS variables, animations & responsive styling
+├── package.json       # Node package manager configurations & scripts
+├── run.bat            # Windows batch configuration script 
+└── serve.ps1          # PowerShell engine script to boot local server
 
-## 📂 Project Structure
+🏁 Getting Started
+Prerequisites
+Make sure you have Node.js installed on your machine.
 
-```bash
-Lumina-Clean-Store/
-│
-├── client/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── server/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── package.json
-│
-├── README.md
-└── .env
-```
+Local Development Setup
+Clone the repository:
 
-## ⚙️ Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/lumina-clean-store.git
+Bash
+git clone [https://github.com/YOUR_USERNAME/lumina-clean-store.git](https://github.com/YOUR_USERNAME/lumina-clean-store.git)
 cd lumina-clean-store
-```
+Install dependencies:
 
-### Install Frontend Dependencies
-
-```bash
-cd client
+Bash
 npm install
-```
+Run using Vite (Standard):
 
-### Install Backend Dependencies
-
-```bash
-cd ../server
-npm install
-```
-
-### Configure Environment Variables
-
-Create a `.env` file in the server directory and add:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-```
-
-### Run the Backend
-
-```bash
+Bash
 npm run dev
-```
-
-### Run the Frontend
-
-```bash
-cd ../client
-npm run dev
-```
-
-## 📸 Screenshots
-
-Add screenshots of:
-- Home Page
-- Product Listing Page
-- Product Details Page
-- Shopping Cart
-- Login/Register Page
-- Admin Dashboard
-
-## 🎯 Future Enhancements
-
-- Online Payment Integration
-- Wishlist Functionality
-- Product Reviews & Ratings
-- Email Notifications
-- Order Tracking System
-- AI-Based Product Recommendations
